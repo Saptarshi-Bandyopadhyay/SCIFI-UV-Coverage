@@ -97,7 +97,7 @@ for ns = 1:1:num_SC
         y0 = r0(2); 
         z0 = r0(3);
         
-        x0_dot = 0;
+        x0_dot = 0.5*omega_z*y0;
         y0_dot = -2*omega_z*x0;
         z0_dot = 0;
         

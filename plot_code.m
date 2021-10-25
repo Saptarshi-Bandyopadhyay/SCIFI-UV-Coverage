@@ -86,7 +86,7 @@ end
 
 lla = ecef2lla(SC_orbit_data{1}.pos_earth_array(k,1:3));
 % view([lla(2)+90,30])
-view([10,30])
+% view([10,30])
 
 legend(legendCell)
 axis equal
